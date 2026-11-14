@@ -1,0 +1,16 @@
+reader,engine,set,correct,answerable,supporting_citations_pct,p50_s
+Qwen3.5-4B,agent,f1,19,44,66,7.3
+Qwen3.5-4B,B3,f1,16,44,55,1.7
+Qwen3.5-4B,B4_cpu_rerank,f1,23,44,59,70.8
+Qwen3.5-4B,B4g,f1,24,44,60,2.8
+Qwen3.5-4B,B4g_v2,f1,22,44,80,2.7
+Qwen3.5-4B,oracle,f1,32,44,80,1.4
+Qwen3.5-4B,agent,holdout1,24,44,67,7.4
+Qwen3.5-4B,B4g,holdout1,22,44,55,2.4
+Qwen3.5-4B,B4g_v2,holdout1,24,44,77,2.6
+Qwen3.5-9B,agent,f1,18,44,62,8.1
+Qwen3.5-9B,B4g,f1,24,44,71,3.2
+Qwen3.5-9B,B4g_v2,f1,25,44,83,3.2
+Qwen3.5-9B,agent,holdout1,22,44,58,8.5
+Qwen3.5-9B,B4g,holdout1,29,44,66,3.3
+Qwen3.5-9B,B4g_v2,holdout1,29,44,77,3.3

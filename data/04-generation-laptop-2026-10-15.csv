@@ -1,0 +1,11 @@
+variant,description,correct,answerable,ci95_low_pct,ci95_high_pct,correct_abstentions,undue_abstentions,supporting_citations_pct,p50_s,p95_s,judging
+B0,agent hybrid,20,44,32,60,3,4,84,40.6,93.9,provisional_v1
+O0,oracle,36,44,68,90,5,0,85,5.0,8.1,provisional_v1
+O1,oracle + 4 distractors,30,44,53,80,5,0,76,6.2,9.8,provisional_v1
+B1,evidence + legacy lexical,3,44,2,18,5,28,61,2.2,7.9,provisional_v1
+B2b,rrf-or,12,44,16,42,5,5,61,6.2,9.0,provisional_v1
+B3,rrf-or-sem,23,44,38,66,5,6,65,6.7,9.3,provisional_v1
+B4,rrf-or-sem-rerank,26,44,44,72,5,1,70,9.2,12.1,provisional_v1
+B5,B4 + sources,25,44,42,70,4,2,71,11.2,15.5,provisional_v1
+B6,B4 + graph,26,44,44,72,5,2,70,9.0,12.7,provisional_v1
+B5+B6,B4 + sources + graph,24,44,40,68,4,1,65,11.3,15.8,provisional_v1

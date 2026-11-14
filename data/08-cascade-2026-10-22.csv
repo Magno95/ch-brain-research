@@ -1,0 +1,12 @@
+config,set,correct,answerable,supporting_citations_pct,correct_abstentions,false_claims_both_judges,p50_s,p95_s,usd_per_100_questions_2026
+L_local_9B,holdout2,28,44,84,6,7,3.2,5.8,0
+M_cascade,holdout2,40,44,87,6,0,6.8,144.2,2.14
+C_cloud_agent,holdout2,39,44,83,6,3,23.8,103.4,5.39
+L_local_9B,f1+holdout1,53,88,79,,,3.3,,0
+M_cascade,f1+holdout1,71,88,88,,,4.9,,1.89
+C_cloud_agent,f1+holdout1,77,88,80,,,30.2,,5.98
+L_local_9B,all_three,81,132,,,,,,0
+M_cascade,all_three,111,132,,17,,,,1.98
+C_cloud_agent,all_three,116,132,,,,,,5.78
+flash_reader_only_derived,all_three,103,132,,,,,,0.32
+9B_then_M_derived,all_three,84,132,,,,,,

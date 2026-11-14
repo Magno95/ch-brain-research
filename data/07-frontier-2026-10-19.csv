@@ -1,0 +1,7 @@
+reader,engine,f1_correct,holdout1_correct,total_correct,answerable,supporting_citations_pct,input_tokens,output_tokens_excl_thinking,calls
+gemini-3.7-flash,agent,37,41,78,88,79,6338578,56006,786
+gemini-3.1-pro-preview,agent,32,40,72,88,84,5279309,42259,679
+gemini-3.1-pro-preview,evidence_B4_v2,32,34,66,88,94,319383,17766,100
+gemini-3.7-flash,evidence_B4_v2,31,34,65,88,96,319383,21113,100
+qwen3.5-9b,evidence_B4_v2,25,29,54,88,80,,,
+qwen3.5-9b,agent,18,22,40,88,60,,,

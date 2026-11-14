@@ -1,0 +1,12 @@
+variant,description,all_at5,all_at20,bundle_all,recall_at20,mrr,p95_ms,answerable
+historical,retrieve() pages,12,12,,0.37,0.44,18,44
+B1,legacy as evidence,7,9,9,0.29,0.33,14,44
+B2a,strict channels RRF,2,2,2,0.07,0.11,8,44
+B2b,strict + OR,23,31,31,0.88,0.77,10,44
+B3-e5,+ semantic multilingual-E5-small,20,33,24,0.87,0.67,12,44
+B3-qwen,+ semantic Qwen3-Embedding-0.6B,27,34,32,0.93,0.83,15,44
+ablation,OR + rerank no semantic,26,32,30,0.89,0.93,1600,44
+B4-e5,B4 with E5-small,26,34,33,0.91,0.92,2400,44
+B4,OR + Qwen3-Embedding + Qwen3-Reranker,27,37,34,0.95,0.92,2300,44
+B5,B4 + linked sources,27,37,34,0.95,0.92,3400,44
+B6,B4 + adaptive graph,27,37,35,0.95,0.92,2200,44

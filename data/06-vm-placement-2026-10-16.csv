@@ -1,0 +1,4 @@
+config,pages_opened_recall,pages_cited_recall,correct_abstentions,undue_abstentions,p50_s,p95_s,rerank_p50_s,vram_peak_mib,min_free_commit_gib,prompt_cache
+B3,0.867,0.662,5,5,1.7,2.7,,5606,7.6,default
+B4_rerank_cpu,0.897,0.679,5,3,70.8,80.1,69.0,5606,3.0,default
+B4_rerank_gpu,0.897,0.713,5,2,2.7,5.0,1.0,7003,6.0,off

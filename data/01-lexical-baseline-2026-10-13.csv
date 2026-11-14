@@ -1,0 +1,9 @@
+set,category,answerable,all_expected_in_top20
+f0_known,all,45,44
+independent,direct,12,7
+independent,synonyms,10,0
+independent,multi_hop,10,1
+independent,contradictions,4,2
+independent,obsolete,4,0
+independent,source_detail,4,2
+independent,all,44,12
